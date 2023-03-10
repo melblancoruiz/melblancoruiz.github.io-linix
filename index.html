@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" href="img/logo.ico">
+    <title>Blanco Ruiz Melina TP FINAL</title>
+</head>
+
+<body>
+    <div class="container_grl">
+        <!--Header-->
+        <header class="header">
+
+            <nav>
+                <ul class="list ">
+                    <h1 class="list_logo"><a href="index.html" title="logo"><img src="img/minilogo.png" alt="logo Linix" /></a></h1>
+                    <li class="list_item"><a href="index.html">INICIO</a></li>
+                    <li class="list_item"><a href="#colections">COLECCIONES</a></li>
+                    <li class="list_item"><a href="#nosotros">NOSOTROS</a></li>
+                    <li class="list_item"><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Main-->
+        <main class="main_image">
+            <div class="main_text">
+                <h1 class="main_text_tit">LINIX</h1>
+                <p class="main_text_sub">Bienvenido a nuestro sitio oficial</p>
+            </div>
+        </main>
+
+        <!--Linix-->
+        <div class="container">
+            <h2 class="art_title">SOBRE LINIX</h2>
+            <p> <img src="img/logo.png" style="float:left ; margin-right: 30px" alt="logo linix">
+            <p>Linix es una marca ficticia (creada para la materia <strong>Diseño Gráfico Publicitario I</strong> ) de ropa deportiva con tejidos orgánicos, que nace como una alternativa a la industria textil convencional, comprometiéndose a respetar la vida y promover la sostenibilidad y desarrollo de todas las personas implicadas en su proceso.En Linix hacemos prendas y productos textiles 100% ecológicos pensados para tu comodidad y el bien estar del planeta.</p>
+            <p>Ofrecemos una solución integral y de actualidad basada en los Objetivos de Desarrollo Sostenible de las Naciones Unidas. </p>
+            <p>Trabajamos con proveedores con los que compartimos los mismos códigos éticos y deseo de cambio, garantizando unos salarios justos para los trabajadores y en igualdad de género, en condiciones de Comercio Justo.</p>
+            <form action="#contacto"> <input type="submit" id="buton" value="CONTACTANOS" />
+            </form>
+        </div>
+
+        <!--Collections-->
+        <h2 id="colections"></h2> <!-- Para incluir el titulo en el link -->
+        <div class="container">
+            <h2 id="colections" id="colections"class="art_title">COLECCIONES</h2>
+        </div>
+        <div class="art_container">
+            <article class="collections_article">
+                <div class="collections_img img_1"></div>
+                <h2 class="collections_sub">DEPORTES</h2>
+                <p class="collections_p">Las mejores prendas para tus deportes favoritos: VOLEY - BASQUET - FUTBOL Y MAS!</p>
+            </article>
+            <article class="collections_article">
+                <div class="collections_img img_2"></div>
+                <h2 class="collections_sub">PRIMAVERA-VERANO</h2>
+                <p class="collections_p">Tendencia. Todo lo nuevo en ropa deportiva. Preparate para Entrenar.</p>
+            </article>
+            <article class="collections_article">
+                <div class="collections_img img_3"></div>
+                <h2 class="collections_sub">RUNNING</h2>
+                <p class="collections_p">Conocé todos los productos que tenemos para vos. Comprá Online tus Conjunto Running acá! </p>
+            </article>
+        </div>
+
+        <!--About-->
+        <h2 id="nosotros"></h2> <!-- Para incluir el titulo en el link -->
+        <div class="container">
+            <h2 data-offset="100px" class="art_title">SOBRE NOSOTROS</h2>
+            <p> <img src="img/bosque.jpg.png" style="float: right; margin-right: 30px;" alt="logo linix">
+            <h3><strong>“A veces sentimos que lo que hacemos es tan sólo una gota en el océano, pero el océano sería menos si le faltara esa gota”</strong></h3>
+            <p>Linix surge como empresa liderando valores, como una alternativa necesaria en nuestra sociedad para vivir en armonía con la naturaleza, respetando sus ciclos. Desde el ejercicio de responsabilidad de respetar la pluralidad de sus gentes, garantizando sus derechos fundamentales..</p>
+            <p>Cada año junto a <strong>Seamos Bosques</strong> medimos y compensamos nuestras emisiones de gases de efecto invernadero a través de la plantación de árboles nativos. Podes ver el Bosque Martha acá.</p>
+            <p>Las emisiones se expresa en toneladas de CO2 (dióxido de carbono) equivalente. Esta medida tiene en cuenta al dióxido de carbono y a los demás gases convertidos a su valor equivalente en dióxido de carbono en relación a su potencial de calentamiento global. </p>
+        </div>
+        <!--Contacto-->
+
+        <h2 id="contacto"></h2> <!-- Para incluir el titulo en el link -->
+        <div class="container">
+            <h2 class="art_title">CONTACTANOS</h2>
+            <p> <img src="img/contacto.png" style="float: right; margin-right: 30px;" alt="logo linix">¿Necesitás hablar con nosotros? ¡Estamos para ayudarte!</p>
+
+
+        </div>
+
+        <!--Formulario-->
+        <div class="form">
+            <form class="art_form" action="formulario.html">
+                <h3 class="h3 ">Llená el formulario</h3>
+                <input type="text" id="casilla" name="Nombre" placeholder="Nombre" required>
+                <input type="text" id="casilla" name="Apellido" placeholder="Apellido" required>
+                <input type="text" id="casilla" name="Email" placeholder="Email" required>
+                <textarea name="mensaje" placeholder="Escriba su mensaje aqui" style="resize: vertical" required></textarea>
+                <!--  <input type="button" id="button" value="ENVIAR">  -->
+                <form action="fomulario.html"> <input type="submit" id="button" value="ENVIAR" />
+                </form>
+            </form>
+        </div>
+
+
+        <!--Boton Flotante-->
+        <a href="index.html" class="btn-flotante">▲</a>
+
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footer_text">
+
+                <div class="list">
+                    <a href="https://www.facebook.com/linixsport/" target="_blank"><img src="img/facebook.png" alt="icono facebook"></a>
+                    <a href="https://www.instagram.com/linixsport/" target="_blank"><img src="img/instagram.png" alt="icono instagram"></a>
+                    <a href="https://www.twitter.com/linixsport/" target="_blank"><img src="img/twitter.png" alt="icono twitter"></a>
+                </div>
+                <div class="h3">
+                    <h3 class="h3">Seguinos en redes sociales: @Linixsport</h3>
+                </div>
+
+                <p>Website made by <a href="#">Blanco Ruiz Melina</a></p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

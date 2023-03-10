@@ -1,0 +1,285 @@
+/*------------------NORMALIZE STYLES------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.container_grl {
+    margin-top: 0;
+    padding-left: 180px;
+    padding-right: 180px;
+    max-width: 1300px;
+}
+
+.container {
+    margin-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+/*------------------NAVBAR------------------*/
+
+.header {
+    max-width: 1360px;
+    height: 49px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: orange;
+    position: sticky;
+    top: 0;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.list_item {
+    float: left;
+}
+
+.list_logo {
+    float: left;
+    display: block;
+    background-color: #555;
+    padding: 4px 20px;
+    transition: 0.3s ease all;
+}
+
+.list_item a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    transition: 0.4s ease all;
+    text-decoration: none;
+}
+
+.list_item a:hover:not(.active) {
+    background-color: orange;
+}
+
+/*------------------MAIN------------------*/
+
+.main_image {
+    background: url(img/main.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    width: 100%;
+    height: 20rem;
+    text-align: center;
+}
+
+.main_text {
+    position: relative;
+    top: 40%;
+
+}
+
+.main_text_tit {
+    font-size: 3.3em;
+}
+
+.main_text_sub {
+    font-size: 1em;
+}
+
+/*------------------COLLECTIONS------------------*/
+.art_container {
+    text-align: center;
+    background-color: orange;
+    color: black;
+    margin-top: 5%;
+}
+
+.art_title {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    font-size: 1.5em;
+    color: white;
+    background-color: black;
+    width: 100%;
+}
+
+.collections_article {
+    display: inline-block;
+    width: 25%;
+    height: 25%;
+    margin: 35px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10px;
+
+}
+
+.collections_img {
+    width: 100%;
+    height: 13rem;
+    margin-bottom: 1rem;
+}
+
+/*---------------IMGS---------------*/
+.img_1 {
+    background: url(img/hombres.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_2 {
+    background: url(img/mujeres.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_3 {
+    background: url(img/colecciones.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------------*/
+.collections_sub {
+    font-size: 1.3em;
+    margin-bottom: 0.4em;
+}
+
+.collections_p {
+    font-size: 0.8em;
+}
+
+.form {
+    margin: 0 30px;
+    width: 400px;
+    padding: 15px;
+    background-color: orange;
+    color: black;
+    box-sizing: border-box;
+    margin-top: 30px;
+    border-radius: 4px;
+}
+
+.h3 {
+    margin: 0px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.input,
+textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    max-height: 200px;
+    min-height: 100px;
+    border-radius: 3px;
+    border: none;
+}
+
+
+.textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+#button {
+    background-color: #555;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 3px;
+}
+
+#buton {
+    background-color: orange;
+    padding: 10px;
+    width: 30%;
+    border-width: 0px;
+    float: right;
+    border-radius: 3px;
+
+}
+
+#casilla {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 14px;
+    width: 100%;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+
+}
+
+/*------------------BOTON FLOTANTE------------------*/
+
+.btn-flotante {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+    background-color: #555;
+    padding: 18px 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: all 300ms ease 0ms;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.btn-flotante:hover {
+    background-color: orangered;
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+    }
+}
+
+/*------------------FOOTER------------------*/
+.footer {
+    text-align: center;
+    margin-top: 5em;
+    width: 100%;
+    height: 8em;
+    color: white;
+    background-color: #333;
+}
+
+.footer_text {
+    position: relative;
+    top: 17%;
+}
+
+.footer_text a {
+    text-decoration: none;
+    color: white;
+}
